@@ -4,13 +4,15 @@
 - Long black screen before login
 - Waiting for network services
 
+<br>
+
 ## Warning
 
 Desktop users are generally safe applying these changes.
 
 Servers or systems that depend on networking during boot may not be.
 
-
+<br>
 
 ## Commands
 
@@ -37,7 +39,7 @@ reboot
 systemd-analyze critical-chain
 ```
 
-
+<br>
 
 ## Explanation
 
@@ -57,7 +59,7 @@ Reduces unnecessary delay during shutdown and startup.
 
 Prevents initialization of unused serial devices.
 
-
+<br>
 
 ## Verification
 
