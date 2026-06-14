@@ -2,7 +2,7 @@
 
 Allow GNOME to boost volume above the normal 100% limit.
 
-
+<br>
 
 ## Enable
 
@@ -10,7 +10,7 @@ Allow GNOME to boost volume above the normal 100% limit.
 gsettings set org.gnome.desktop.sound allow-volume-above-100-percent true
 ```
 
-
+<br>
 
 ## Disable
 
@@ -18,7 +18,7 @@ gsettings set org.gnome.desktop.sound allow-volume-above-100-percent true
 gsettings set org.gnome.desktop.sound allow-volume-above-100-percent false
 ```
 
-
+<br>
 
 ## Explanation
 
@@ -26,7 +26,7 @@ GNOME normally limits output volume to 100%.
 
 This setting allows software amplification beyond that limit.
 
-
+<br>
 
 ## Warning
 
