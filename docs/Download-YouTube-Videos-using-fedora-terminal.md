@@ -2,6 +2,8 @@
 
 Download YouTube videos and audio using yt-dlp.
 
+<br>
+
 ## Features
 
 - Video download
@@ -9,8 +11,7 @@ Download YouTube videos and audio using yt-dlp.
 - Browser cookie support
 - AV1 video support
 
-
-
+<br>
 
 ## Commands
 
@@ -28,8 +29,7 @@ yt-dlp --remote-components ejs:github --no-playlist --cookies-from-browser firef
 yt-dlp --remote-components ejs:github --no-playlist --cookies-from-browser firefox -f ba -x --audio-format wav "https://www.youtube.com/watch?v=UvV74ex-02M" #audio only
 ```
 
-
-
+<br>
 
 ## Verification
 
@@ -44,6 +44,8 @@ Expected:
 ```
 
 or newer.
+
+<br>
 
 ## Notes
 
