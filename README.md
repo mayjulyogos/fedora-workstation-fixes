@@ -13,7 +13,7 @@ This repository documents issues encountered while daily-driving Fedora Workstat
 ## Quick Access
 
 ### Setup
-* [Install Common Dependencies](docs/Install%20Common%20Dependencies.md) *(Note: Add this guide if you create it!)*
+* [Install Common Dependencies](docs/Install%20Common%20Dependencies.md)
 * [System Upgrade](docs/Upgrade%20Fedora%20to%20a%20New%20Major%20Version.md)
 
 ### NVIDIA
