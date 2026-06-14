@@ -23,7 +23,7 @@ This repository documents issues encountered while daily-driving Fedora Workstat
 ### Performance
 * [Configure Fan Control](docs/Configure%20Fan%20Control%20on%20Fedora%20Workstation.md)
 * [Restore Fan Control After a Kernel Update](docs/Restore%20Fan%20Control%20After%20a%20Kernel%20Update.md)
-* [Boot Time Optimization](docs/Fedora%20Boot%20Time%20Optimization.md)
+* [Boot Time Optimization](docs/Fedora%20Boot%20time%20Optimization.md)
 
 ### Multimedia
 * [Install DaVinci Resolve](docs/Install%20Davinci%20Resolve%20on%20Fedora%20Workstation.md)
