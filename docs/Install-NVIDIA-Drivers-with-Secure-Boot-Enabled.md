@@ -4,7 +4,7 @@
 - Black screen after installing NVIDIA drivers
 - Secure Boot blocks kernel modules
 
-
+<br>
 
 ## Commands
 
@@ -72,7 +72,7 @@ nvidia-smi
 
 
 
-## Explanation
+### Explanation
 
 ### Reset Existing MOK Keys
 
@@ -112,7 +112,7 @@ sudo akmods --force --rebuild
 
 Rebuilds NVIDIA kernel modules and signs them.
 
-
+<br>
 
 ## Verification
 
