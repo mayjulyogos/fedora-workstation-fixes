@@ -6,14 +6,13 @@
     
 - Screen remains at maximum brightness
     
-
-
+<br>
 
 ## Cause
 
 Some NVIDIA Optimus laptops expose multiple backlight interfaces. Fedora may select the wrong interface, causing brightness controls to stop working.
 
-
+<br>
 
 ## Solution
 
@@ -34,7 +33,7 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 reboot
 ```
 
-
+<br>
 
 ## Explanation
 
@@ -46,7 +45,7 @@ acpi_backlight=native
 
 forces Linux to use the native laptop backlight interface instead of alternative ACPI implementations.
 
-
+<br>
 
 ## Verification
 
@@ -59,7 +58,7 @@ After reboot:
 - Confirm screen brightness changes
     
 
-
+<br>
 
 ## Notes
 
