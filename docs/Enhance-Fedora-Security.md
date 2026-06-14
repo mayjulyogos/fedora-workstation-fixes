@@ -2,6 +2,8 @@
 
 Apply basic hardening to SSH and GRUB.
 
+<br>
+
 ## Commands
 
 ```bash
@@ -21,6 +23,8 @@ sudo systemctl status sshd
 
 sudo grub2-setpassword #password: @#fedora linux#
 ```
+
+<br>
 
 ## Explanation
 
