@@ -1,7 +1,3 @@
-# fedora-workstation-fixes
-A personal knowledge base of Fedora Workstation fixes, solutions, and troubleshooting notes gathered through daily use.
-
-
 # Fedora Workstation Fixes
 
 A collection of real-world Fedora Workstation problems and the command-line solutions that fixed them.
@@ -60,7 +56,7 @@ Some fixes may be hardware-specific, Fedora-version-specific, or NVIDIA-specific
 
 Tested primarily on Fedora Workstation with GNOME and NVIDIA graphics.
 
-
+---
 
 ## Star History
 
