@@ -74,8 +74,6 @@ nvidia-smi
 
 
 
-### Explanation
-
 ### Reset Existing MOK Keys
 
 ```bash
