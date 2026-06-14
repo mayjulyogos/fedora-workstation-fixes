@@ -59,3 +59,15 @@ Always review commands before running them.
 Some fixes may be hardware-specific, Fedora-version-specific, or NVIDIA-specific.
 
 Tested primarily on Fedora Workstation with GNOME and NVIDIA graphics.
+
+
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=fedora-workstation-fixes%2Ffedora-workstation-fixes&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fedora-workstation-fixes/fedora-workstation-fixes&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=fedora-workstation-fixes/fedora-workstation-fixes&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=fedora-workstation-fixes/fedora-workstation-fixes&type=date&legend=top-left" />
+ </picture>
+</a>
