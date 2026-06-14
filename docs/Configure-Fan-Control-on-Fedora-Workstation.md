@@ -5,7 +5,7 @@
 - No custom fan curve available
 - CoolerControl cannot detect hardware
 
-
+<br>
 
 ## Solution
 
@@ -25,7 +25,7 @@ sudo systemctl enable --now coolercontrold
 sudo systemctl status coolercontrold
 ```
 
-
+<br>
 
 ## Explanation
 
@@ -37,7 +37,7 @@ sudo sensors-detect
 
 Scans for motherboard temperature and fan monitoring chips.
 
-
+<br>
 
 ### Verify Detection
 
@@ -67,7 +67,7 @@ Provides a graphical interface for:
 - Fan curves
 - Performance profiles
 
-
+<br>
 
 ## Verification
 
@@ -81,7 +81,7 @@ Expected:
 Active: active (running)
 ```
 
-
+<br>
 
 ## Notes
 
