@@ -2,13 +2,15 @@
 
 Upgrade Fedora Workstation to a newer release using Fedora's official offline upgrade mechanism.
 
+<br>
+
 ## When to Use
 
 - Fedora 42 → Fedora 43
 - Fedora 43 → Fedora 44
 - Any supported Fedora major release upgrade
 
-
+<br>
 
 ## Commands
 
@@ -20,7 +22,7 @@ sudo dnf system-upgrade download --releasever=44 --allowerasing
 sudo dnf system-upgrade reboot
 ```
 
-
+<br>
 
 ## Explanation
 
@@ -62,6 +64,7 @@ sudo dnf system-upgrade reboot
 
 Reboots into the upgrade environment and installs the new release.
 
+<br>
 
 ## Verification
 
