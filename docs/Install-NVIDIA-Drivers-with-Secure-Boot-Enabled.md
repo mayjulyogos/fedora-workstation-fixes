@@ -66,9 +66,11 @@ systemctl reboot -i
 
 
 ### Verify
+```bash
 mokutil --sb-state
 modinfo nvidia | grep signer
 nvidia-smi
+```
 
 
 
