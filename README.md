@@ -13,28 +13,28 @@ This repository documents issues encountered while daily-driving Fedora Workstat
 ## Quick Access
 
 ### Setup
-* [Install Common Dependencies](docs/Install%20Common%20Dependencies.md)
-* [System Upgrade](docs/Upgrade%20Fedora%20to%20a%20New%20Major%20Version.md)
+* [Install Common Dependencies](docs/Install-Common-Dependencies.md)
+* [System Upgrade](docs/Upgrade-Fedora-to-a-New-Major-Version.md)
 
 ### NVIDIA
-* [Brightness Control Not Working on NVIDIA Optimus Laptops](docs/Brightness%20Control%20Not%20Working%20on%20NVIDIA%20Optimus%20Laptops.md)
-* [Install NVIDIA Drivers with Secure Boot Enabled](docs/Install%20NVIDIA%20Drivers%20with%20Secure%20Boot%20Enabled.md)
+* [Brightness Control Not Working on NVIDIA Optimus Laptops](docs/Brightness-Control-Not-Working-on-NVIDIA-Optimus-Laptops.md)
+* [Install NVIDIA Drivers with Secure Boot Enabled](docs/Install-NVIDIA-Drivers-with-Secure-Boot-Enabled.md)
 
 ### Performance
-* [Configure Fan Control](docs/Configure%20Fan%20Control%20on%20Fedora%20Workstation.md)
-* [Restore Fan Control After a Kernel Update](docs/Restore%20Fan%20Control%20After%20a%20Kernel%20Update.md)
-* [Boot Time Optimization](docs/Fedora%20Boot%20time%20Optimization.md)
+* [Configure Fan Control](docs/Configure-Fan-Control-on-Fedora-Workstation.md)
+* [Restore Fan Control After a Kernel Update](docs/Restore-Fan-Control-After-a-Kernel-Update.md)
+* [Boot Time Optimization](docs/Fedora-Boot-time-Optimization.md)
 
 ### Multimedia
-* [Install DaVinci Resolve](docs/Install%20Davinci%20Resolve%20on%20Fedora%20Workstation.md)
-* [Download YouTube Videos](docs/Download%20YouTube%20Videos%20using%20fedora%20terminal.md)
-* [Local Video Player](docs/Local%20Video%20Player.md)
+* [Install DaVinci Resolve](docs/Install-Davinci-Resolve-on-Fedora-Workstation.md)
+* [Download YouTube Videos](docs/Download-YouTube-Videos-using-fedora-terminal.md)
+* [Local Video Player](docs/Local-Video-Player.md)
 
 ### Security
-* [Enhance System Security](docs/Enhance%20Fedora%20Security.md)
+* [Enhance System Security](docs/Enhance-Fedora-Security.md)
 
 ### Audio
-* [Enable Volume Over-Amplification](docs/Volume%20Over-Amplification.md)
+* [Enable Volume Over-Amplification](docs/Volume-Over-Amplification.md)
 
 ---
 
