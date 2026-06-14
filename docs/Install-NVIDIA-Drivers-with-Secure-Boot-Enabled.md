@@ -8,57 +8,57 @@
 
 ## Commands
 
-# Install required packages (if not already installed)
+### Install required packages (if not already installed)
 ```bash
 sudo dnf install -y kmodtool akmods mokutil openssl
 ```
 
-# Remove all enrolled MOK keys
+### Remove all enrolled MOK keys
 ```bash
 sudo mokutil --reset
 ```
 
-# Reboot and confirm the reset in MOK Manager
+### Reboot and confirm the reset in MOK Manager
 ```bash
 systemctl reboot -i
 ```
 
 
 
-# Remove old akmods keys from disk
+### Remove old akmods keys from disk
 ```bash
 sudo rm -f /etc/pki/akmods/certs/*.der
 sudo rm -f /etc/pki/akmods/private/*.priv
 ```
 
-# Generate a new key pair
+### Generate a new key pair
 ```bash
 sudo kmodgenca -a -f
 ```
 
-# Import the new key
+### Import the new key
 ```bash
 sudo mokutil --import /etc/pki/akmods/certs/public_key.der
 ```
 
-# Reboot and enroll the new key in MOK Manager
+### Reboot and enroll the new key in MOK Manager
 ```bash
 systemctl reboot -i
 ```
 
 
 
-# Rebuild and sign NVIDIA modules
+### Rebuild and sign NVIDIA modules
 ```bash
 sudo akmods --force --rebuild
 ```
 
-# Regenerate initramfs
+### Regenerate initramfs
 ```bash
 sudo dracut --force
 ```
 
-# Reboot
+### Reboot
 ```
 systemctl reboot -i
 ```
