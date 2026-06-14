@@ -4,6 +4,8 @@
 - Resolve launches and immediately crashes
 - Resolve fails to start on Fedora
 
+<br>
+
 ## Commands
 
 ```bash
@@ -15,8 +17,7 @@ sudo mkdir -p disabled-libraries
 sudo mv libglib-2.0.so* libgio-2.0.so* libgmodule-2.0.so* libgobject-2.0.so* disabled-libraries/
 ```
 
-
-
+<br>
 
 ## Explanation
 
@@ -30,7 +31,6 @@ Bypasses the installer's package verification.
 
 
 
-
 ### Move Bundled GLib Libraries
 
 Resolve ships older versions of several GLib libraries.
@@ -39,8 +39,7 @@ Fedora often provides newer versions that work better.
 
 Moving the bundled libraries forces Resolve to use Fedora's versions.
 
-
-
+<br>
 
 ## Warning
 
