@@ -19,6 +19,19 @@ sudo mv libglib-2.0.so* libgio-2.0.so* libgmodule-2.0.so* libgobject-2.0.so* dis
 
 <br>
 
+## Uninstallation (Remove Leftover Configuration and App Data)
+```bash
+#launch the official uninstaller which is installed while installing davinci resolve
+sudo rm -rf /opt/resolve
+rm -rf ~/.local/share/DaVinciResolve
+rm -rf ~/.config/DaVinciResolve
+rm -rf ~/.blackmagic
+rm -f ~/.local/share/applications/DaVinciResolve.desktop
+sudo rm -f /usr/share/applications/blackmagic*.desktop
+```
+
+<br>
+
 ## Explanation
 
 ### Skip Package Validation
@@ -29,7 +42,27 @@ sudo SKIP_PACKAGE_CHECK=1 ./DaVinci_Resolve_20.3.2_Linux.run
 
 Bypasses the installer's package verification.
 
+### Removes the main directory
+```bash
+sudo rm -rf /opt/resolve
+```
 
+### Remove user configuration and preferences
+```bash
+rm -rf ~/.local/share/DaVinciResolve
+```
+
+### Remove Blackmagic Design config folders
+```bash
+rm -rf ~/.config/DaVinciResolve
+rm -rf ~/.blackmagic
+```
+
+### Clean Up Desktop Shortcuts
+```bash
+rm -f ~/.local/share/applications/DaVinciResolve.desktop
+sudo rm -f /usr/share/applications/blackmagic*.desktop
+```
 
 ### Move Bundled GLib Libraries
 
