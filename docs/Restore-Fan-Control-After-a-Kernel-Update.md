@@ -10,6 +10,7 @@
 
 ```bash
 sudo modprobe -r acer_wmi && sudo modprobe acer_wmi
+sudo pwmconfig
 ```
 
 <br>
@@ -19,6 +20,8 @@ sudo modprobe -r acer_wmi && sudo modprobe acer_wmi
 Reloads the Acer WMI kernel module.
 
 This forces Fedora to reconnect to the laptop's embedded controller.
+
+Linux controls fans using PWM (Pulse Width Modulation).
 
 <br>
 
