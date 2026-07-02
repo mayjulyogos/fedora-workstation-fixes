@@ -25,6 +25,7 @@ source ~/.bashrc
 deno --version
 
 yt-dlp --remote-components ejs:github --no-playlist --cookies-from-browser firefox --extractor-args "youtube:player_client=android_vr,web_embedded" -f "bestvideo+bestaudio/best" --merge-output-format mkv --postprocessor-args "ffmpeg:-c:v copy -c:a flac" "https://www.youtube.com/watch?v=UvV74ex-02M" # video and audio
+yt-dlp --remote-components ejs:github --no-playlist --cookies-from-browser firefox --extractor-args "youtube:player_client=android_vr,web_embedded" -f "bestaudio" -x --audio-format flac "https://www.youtube.com/watch?v=xZ3-_Tx0Kfg" # audio only
 ```
 
 <br>
