@@ -24,7 +24,7 @@ echo 'export PATH="$DENO_INSTALL/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 deno --version
 
-yt-dlp --remote-components ejs:github --no-playlist --cookies-from-browser firefox -f "bv[vcodec^=av01]+ba/b" --merge-output-format mkv --postprocessor-args "ffmpeg:-c:v copy -c:a pcm_s16le" "https://www.youtube.com/watch?v=UvV74ex-02M" #video and audio
+yt-dlp --remote-components ejs:github --no-playlist --cookies-from-browser firefox --extractor-args "youtube:player_client=android_vr,web_embedded" -f "bestvideo+bestaudio/best" --merge-output-format mkv --postprocessor-args "ffmpeg:-c:v copy -c:a pcm_s16le" "https://www.youtube.com/watch?v=UvV74ex-02M" #video and audio
 ```
 
 <br>
