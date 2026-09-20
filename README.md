@@ -23,7 +23,6 @@ This repository documents issues encountered while daily-driving Fedora Workstat
 
 ### Multimedia
 * [Install DaVinci Resolve](docs/Install-Davinci-Resolve-on-Fedora-Workstation.md)
-* [Download YouTube Videos](docs/Download-YouTube-Videos-using-fedora-terminal.md)
 * [Local Video Player](docs/Local-Video-Player.md)
 
 ### Security
